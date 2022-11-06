@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DevExpress.XtraEditors;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,11 +9,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace TekinTecnology.StudentTrackingProject.UI.Win
+namespace TekinTecnology.StudentTrackingProject.UI.Win.Forms.BaseForms
 {
-    public partial class Form1 : Form
+    public partial class BaseKartForm : DevExpress.XtraBars.Ribbon.RibbonForm
     {
-        public Form1()
+        public BaseKartForm()
         {
             InitializeComponent();
         }
