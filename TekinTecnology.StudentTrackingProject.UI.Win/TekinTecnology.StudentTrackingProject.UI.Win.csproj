@@ -71,6 +71,9 @@
     <Compile Include="UserControls\Controls\MyButtonEdit.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="UserControls\Controls\MyTextEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <EmbeddedResource Include="Forms\BaseForms\BaseKartForm.resx">
       <DependentUpon>BaseKartForm.cs</DependentUpon>
     </EmbeddedResource>
