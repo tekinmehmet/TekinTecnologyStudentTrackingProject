@@ -16,6 +16,8 @@ namespace TekinTecnology.StudentTrackingProject.UI.Win.Forms.BaseForms
         public BaseKartlarForms()
         {
             InitializeComponent();
+        
         }
+
     }
 }
